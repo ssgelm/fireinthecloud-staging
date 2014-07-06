@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title><![CDATA[Fire in the Cloud]]></title>
+	<link href="http://ssgelm.github.io/fireinthecloud-staging//atom.xml" rel="self"/>
+	<link href="http://ssgelm.github.io/fireinthecloud-staging//"/>
+	<updated>2014-07-05T22:58:41-05:00</updated>
+	<id>http://ssgelm.github.io/fireinthecloud-staging//</id>
+	<author>
+		<name><![CDATA[Stephen Gelman]]></name>
+		
+	</author>
+	<generator uri="http://octopress.org/">Octopress</generator>
+
+	
+	<entry>
+		
+			<title type="html"><![CDATA[First post]]></title>
+		
+		<link href="http://ssgelm.github.io/fireinthecloud-staging//blog/2014/03/18/first-post/"/>
+		<updated>2014-03-18T21:43:39-05:00</updated>
+		<id>http://ssgelm.github.io/fireinthecloud-staging//blog/2014/03/18/first-post</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>This is my first post!  More content coming soon&hellip;</p>
+]]>
+		</content>
+	</entry>
+	
+</feed>
