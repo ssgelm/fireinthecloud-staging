@@ -12,7 +12,7 @@
 		<title>Fire in the Cloud</title>
 
 		<!-- Styles -->
-		<link href="/stylesheets/main.css" rel="stylesheet">
+		<link href="/fireinthecloud-staging/stylesheets/main.css" rel="stylesheet">
 
 		<!-- Google webfonts -->
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
@@ -26,13 +26,13 @@
 		<div class="wrap">
 
 			<header>
-                <a href="/"><div class="title">Fire in the Cloud</div></a>
+                <a href="/fireinthecloud-staging"><div class="title">Fire in the Cloud</div></a>
 
 				<div class="navi">
 					<ul>
-						<li><a href="/">Blog</a></li>
-						<li><a href="/blog/archives">Archives</a></li>
-						<li><a href="/atom.xml">RSS</a></li>
+						<li><a href="/fireinthecloud-staging/">Blog</a></li>
+						<li><a href="/fireinthecloud-staging/blog/archives">Archives</a></li>
+						<li><a href="/fireinthecloud-staging/atom.xml">RSS</a></li>
 					</ul>
 				</div> <!-- // .navi -->
 			</header>
@@ -46,7 +46,7 @@
 
 <article>
     <header>
-        <h1><a href="/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/">Resizing a Xen DomU&#8217;s Loopback Volume Online</a></h1>
+        <h1><a href="/fireinthecloud-staging/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/">Resizing a Xen DomU&#8217;s Loopback Volume Online</a></h1>
         <time>June 21 2014</time>
     </header>
     
@@ -54,7 +54,7 @@
         <p>At Braintree we use Xen running on Debian for virtualization.  We have two generations of Dom0s.  Our newer generation uses LVM for VM storage and our older generation uses disk images attached to the VMs via loopback devices.  We often have the need to enlarge a disk volume attached to a DomU.  In order to maintain the highest uptime possible we prefer to resize the VM online without needing to shutdown or even reboot the VM.  All of our services are highly available so they can tolerate a reboot of a single VM but we still try not to rely on that if possible.  Resizing an LVM-backed volume online is a pretty simple process as long as you are presenting the volume to the DomU as a partition instead of an entire disk (just <code>lvresize</code> it on the Dom0 then <code>resize2fs</code> it on the DomU).  Pretty much <a href="http://theninthdimension.blogspot.com/2010/01/how-to-resize-grow-xen-vm-partition.html">all</a> <a href="http://grantmcwilliams.com/item/262-resize-disk-image-used-as-xen-domu-hard-drive">articles</a> <a href="http://amandine.aupetit.info/187/add-disk-space-to-a-img-disk-image-for-use-with-xen-for-example/">about</a> resizing a Xen loopback volume list the first step as shutting down the DomU.  <a href="http://serverfault.com/questions/65340/how-do-i-get-a-xen-domu-to-notice-a-change-in-the-block-size-of-one-of-its-phy-d">Some</a> go as far as to claim it&rsquo;s impossible to resize it online.</p>
 
 
-        <a rel="full-article" href="/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/">Continue reading »</a>
+        <a rel="full-article" href="/fireinthecloud-staging/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/">Continue reading »</a>
 
     </div>
     
@@ -72,7 +72,7 @@
 		
 			Tagged under
 		
-    <a class='category' href='/blog/categories/xen/'>xen</a>
+    <a class='category' href='/fireinthecloud-staging/blog/categories/xen/'>xen</a>
 	
 
 
@@ -88,14 +88,14 @@
 
 <article>
     <header>
-        <h1><a href="/blog/2014/03/18/first-post/">First post</a></h1>
+        <h1><a href="/fireinthecloud-staging/blog/2014/03/18/first-post/">First post</a></h1>
         <time>March 18 2014</time>
     </header>
     
     <div class="content">
         <p>This is my first post!  More content coming soon&hellip;</p>
 
-        <a rel="full-article" href="/blog/2014/03/18/first-post/">Continue reading »</a>
+        <a rel="full-article" href="/fireinthecloud-staging/blog/2014/03/18/first-post/">Continue reading »</a>
 
     </div>
     
@@ -141,11 +141,11 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
         <!-- Modernizr -->
-        <script type="text/javascript" src="/js/modernizr-2.0.js"></script>
+        <script type="text/javascript" src="/fireinthecloud-staging/js/modernizr-2.0.js"></script>
 
         <!-- Syntax highlighter -->
-        <!-- <link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" /> -->
-        <script type="text/javascript" src="/js/main.js"></script>
+        <!-- <link href="/fireinthecloud-staging/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" /> -->
+        <script type="text/javascript" src="/fireinthecloud-staging/js/main.js"></script>
 
         
         <script type="text/javascript">
