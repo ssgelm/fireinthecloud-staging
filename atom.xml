@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title><![CDATA[Fire in the Cloud]]></title>
-	<link href="http://www.fireinthecloud.com/fireinthecloud-staging//atom.xml" rel="self"/>
-	<link href="http://www.fireinthecloud.com/fireinthecloud-staging//"/>
-	<updated>2014-07-05T23:00:47-05:00</updated>
-	<id>http://www.fireinthecloud.com/fireinthecloud-staging//</id>
+	<link href="http://www.fireinthecloud.com/fireinthecloud-staging/atom.xml" rel="self"/>
+	<link href="http://www.fireinthecloud.com/fireinthecloud-staging/"/>
+	<updated>2014-07-05T23:02:07-05:00</updated>
+	<id>http://www.fireinthecloud.com/fireinthecloud-staging/</id>
 	<author>
 		<name><![CDATA[Stephen Gelman]]></name>
 		
@@ -17,9 +17,9 @@
 		
 			<title type="html"><![CDATA[Resizing a Xen DomU's Loopback Volume Online]]></title>
 		
-		<link href="http://www.fireinthecloud.com/fireinthecloud-staging//blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/"/>
+		<link href="http://www.fireinthecloud.com/fireinthecloud-staging/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online/"/>
 		<updated>2014-06-21T16:17:19-05:00</updated>
-		<id>http://www.fireinthecloud.com/fireinthecloud-staging//blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online</id>
+		<id>http://www.fireinthecloud.com/fireinthecloud-staging/blog/2014/06/21/resizing-a-xen-domus-loopback-volume-online</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -94,9 +94,9 @@
 		
 			<title type="html"><![CDATA[First post]]></title>
 		
-		<link href="http://www.fireinthecloud.com/fireinthecloud-staging//blog/2014/03/18/first-post/"/>
+		<link href="http://www.fireinthecloud.com/fireinthecloud-staging/blog/2014/03/18/first-post/"/>
 		<updated>2014-03-18T21:43:39-05:00</updated>
-		<id>http://www.fireinthecloud.com/fireinthecloud-staging//blog/2014/03/18/first-post</id>
+		<id>http://www.fireinthecloud.com/fireinthecloud-staging/blog/2014/03/18/first-post</id>
 		<content type="html">
 			<![CDATA[
 				
