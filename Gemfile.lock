@@ -57,7 +57,7 @@ GEM
     rack (1.6.12)
     rack-protection (1.5.5)
       rack
-    rake (0.9.6)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -92,7 +92,7 @@ DEPENDENCIES
   jekyll (~> 3.6.3)
   liquid (~> 4.0)
   pygments.rb (~> 1.1)
-  rake (~> 0.9)
+  rake (~> 12.3)
   rb-fsevent (~> 0.9)
   rdiscount (~> 2.0.7)
   rubypants (~> 0.2.0)
